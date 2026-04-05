@@ -9,7 +9,7 @@ import type {
   PermissionResult,
   SDKMessage,
   SDKUserMessage,
-} from "@anthropic-ai/claude-agent-sdk";
+} from "the-coding-sdk";
 import {
   ApprovalRequestId,
   ProviderItemId,

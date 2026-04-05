@@ -1,7 +1,7 @@
 /**
  * ClaudeAdapterLive - Scoped live implementation for the Claude Agent provider adapter.
  *
- * Wraps `@anthropic-ai/claude-agent-sdk` query sessions behind the generic
+ * Wraps `the-coding-sdk` query sessions behind the generic
  * provider adapter contract and emits canonical runtime events.
  *
  * @module ClaudeAdapterLive
@@ -17,7 +17,7 @@ import {
   type SDKResultMessage,
   type SettingSource,
   type SDKUserMessage,
-} from "@anthropic-ai/claude-agent-sdk";
+} from "the-coding-sdk";
 import {
   ApprovalRequestId,
   type CanonicalItemType,

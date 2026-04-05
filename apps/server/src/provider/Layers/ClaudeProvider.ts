@@ -9,7 +9,7 @@ import type {
 import { Cache, Duration, Effect, Equal, Layer, Option, Result, Schema, Stream } from "effect";
 import { ChildProcess, ChildProcessSpawner } from "effect/unstable/process";
 import { decodeJsonResult } from "@t3tools/shared/schemaJson";
-import { query as claudeQuery } from "@anthropic-ai/claude-agent-sdk";
+import { query as claudeQuery } from "the-coding-sdk";
 
 import {
   buildServerProvider,
